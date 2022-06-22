@@ -8,6 +8,8 @@ public class Mock {
     public static void main(String[] args) {
         JsonPath jsonPath=new JsonPath(Basics1.coursePrice());
 
+        System.out.println(" User B has done modifications to this code");
+
        int count= jsonPath.getInt("courses.size()");
 
         System.out.println(count);
